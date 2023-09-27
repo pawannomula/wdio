@@ -1,0 +1,22 @@
+{
+  "name": "securian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "pavan",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.16.15",
+    "selenium-standalone": "^9.1.2",
+    "wdio": "^6.0.1"
+  },
+  "devDependencies": {
+    "@wdio/jasmine-framework": "^8.16.15",
+    "@wdio/local-runner": "^8.16.15",
+    "@wdio/spec-reporter": "^8.16.12"
+  }
+}
